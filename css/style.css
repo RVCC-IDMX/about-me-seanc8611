@@ -1,0 +1,84 @@
+body {
+    font-family:"Sigmar One";
+    background-color:#052A9C;
+    color: #E8AC0E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Yeseva One";
+    font-size:40pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    color: #82BEFF;
+    border: 2px solid #61A5ED;
+    background-color: #E8AC0E;
+    text-align:center;
+    padding:10px;
+}
+
+#hero img{
+    width:300px
+}
+
+/* Bio Section */
+
+#bio {
+    text-align:center;
+}
+
+/* Hobbies */
+
+#hobbies ul li:nth-child(even){
+    color: #000;
+}
+
+/*Gallery */
+
+#gallery {
+    border: 2p x solid #052A9C;
+    margin-bottom:2rem;
+}
+
+#gallery img {
+    max-width:100%;
+}
+
+#galley figure{
+    text-align:center;
+}
+
+/* Literature */
+#lit {
+    border: 2px solid #052A9C;
+    margin-bottom:2rem;
+}
+
+#lit div{
+    padding:2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear:both;
+}
+
+/* Dropcaps */
+
+#lit div p:first-letter {
+    color:royalblue;
+    background-color:bisque;
+    float:left;
+    font-size:3em;
+    padding:.25em;
+    margin-right:.25em;
+    line-height:.65;
+    border:1px solid black;
+    font-family:"Sigmar One";
+} 
