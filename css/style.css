@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size:40pt;
 }
 
+h2 {
+    margin: 0.1em;
+}
+
 header {
     text-align:center;
 }
@@ -32,6 +36,12 @@ header {
 }
 
 /* Hobbies */
+
+section#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #hobbies ul li:nth-child(even){
     color: #000;
@@ -71,7 +81,7 @@ header {
 
 /* Dropcaps */
 
-#lit div p:first-letter {
+#lit div p:first-child {
     color:royalblue;
     background-color:bisque;
     float:left;
@@ -82,3 +92,49 @@ header {
     border:1px solid black;
     font-family:"Sigmar One";
 } 
+
+/* tablet size */
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    #lit div {
+        max-width: 100%;
+        columns: 20rem;
+    }
+}
+
+/* karge screen size */
+
+@media screen and (min-width: 100em){
+    #gallery {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    hr {
+        display: none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
+    }
+}
