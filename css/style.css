@@ -1,7 +1,7 @@
 body {
     font-family:"Sigmar One";
-    background-color:#052A9C;
-    color: #E8AC0E;
+    background-color:#1F2833;
+    color: #66FCF1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,11 +18,10 @@ header {
 }
 
 #hero, footer {
-    color: #82BEFF;
-    border: 2px solid #61A5ED;
-    background-color: #E8AC0E;
+    color: #66FCF1;
+    border: 2px solid whitesmoke;
+    background-color: #1F2833;
     text-align:center;
-    padding:10px;
 }
 
 #hero img{
@@ -50,7 +49,7 @@ section#hobbies {
 /*Gallery */
 
 #gallery {
-    border: 2p x solid #052A9C;
+    border: 2p x solid whitesmoke;
     margin-bottom:2rem;
 }
 
@@ -64,7 +63,7 @@ section#hobbies {
 
 /* Literature */
 #lit {
-    border: 2px solid #052A9C;
+    border: 2px solid whitesmoke;
     margin-bottom:2rem;
 }
 
@@ -78,20 +77,6 @@ section#hobbies {
     padding: 0.3rem 0;
     clear:both;
 }
-
-/* Dropcaps */
-
-#lit div p:first-child {
-    color:royalblue;
-    background-color:bisque;
-    float:left;
-    font-size:3em;
-    padding:.25em;
-    margin-right:.25em;
-    line-height:.65;
-    border:1px solid black;
-    font-family:"Sigmar One";
-} 
 
 /* tablet size */
 @media screen and (min-width: 60em) {
@@ -117,7 +102,7 @@ section#hobbies {
     }
 }
 
-/* karge screen size */
+/* large screen size */
 
 @media screen and (min-width: 100em){
     #gallery {
@@ -153,14 +138,14 @@ section#hobbies {
 }
 
 fieldset {
-    border: 2px solid #052A9C;
+    border: 2px solid whitesmoke;
     margin-top:1em;
     margin-bottom:1em;
 }
 
 legend {
-    background-color: #052A9C;
-    color: white;
+    background-color: #1F2833;
+    color: #66FCF1;
     padding:.5em;
 }
 
@@ -178,9 +163,9 @@ legend {
 }
 
 #contact button {
-    background-color: #052A9C;
-    color: white;
-    border: 1px solid #61A5ED;
+    background-color: #1F2833;
+    color: #66FCF1;
+    border: 1px solid whitesmoke;
     max-width:400px;
     width:50%;
     justify-self: center;
